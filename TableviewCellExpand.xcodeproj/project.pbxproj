@@ -14,6 +14,10 @@
 		839ED7B41F7513A1002E5F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839ED7B21F7513A1002E5F9F /* LaunchScreen.storyboard */; };
 		839ED7BF1F7513A2002E5F9F /* TableviewCellExpandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ED7BE1F7513A2002E5F9F /* TableviewCellExpandTests.swift */; };
 		839ED7CA1F7513A2002E5F9F /* TableviewCellExpandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ED7C91F7513A2002E5F9F /* TableviewCellExpandUITests.swift */; };
+		839ED7D91F7518E8002E5F9F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ED7D81F7518E8002E5F9F /* HeaderView.swift */; };
+		839ED7DF1F751A3E002E5F9F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ED7DE1F751A3E002E5F9F /* CustomTableViewCell.swift */; };
+		839ED7E11F751DFE002E5F9F /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839ED7E01F751DFE002E5F9F /* HeaderView.xib */; };
+		839ED7E31F752EE0002E5F9F /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ED7E21F752EE0002E5F9F /* Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		839ED7C51F7513A2002E5F9F /* TableviewCellExpandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableviewCellExpandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839ED7C91F7513A2002E5F9F /* TableviewCellExpandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewCellExpandUITests.swift; sourceTree = "<group>"; };
 		839ED7CB1F7513A2002E5F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839ED7D81F7518E8002E5F9F /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		839ED7DE1F751A3E002E5F9F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		839ED7E01F751DFE002E5F9F /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		839ED7E21F752EE0002E5F9F /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,10 @@
 		839ED7A81F7513A1002E5F9F /* TableviewCellExpand */ = {
 			isa = PBXGroup;
 			children = (
+				839ED7D71F7513E0002E5F9F /* HeaderViewFiels */,
 				839ED7A91F7513A1002E5F9F /* AppDelegate.swift */,
 				839ED7AB1F7513A1002E5F9F /* ViewController.swift */,
+				839ED7DE1F751A3E002E5F9F /* CustomTableViewCell.swift */,
 				839ED7AD1F7513A1002E5F9F /* Main.storyboard */,
 				839ED7B01F7513A1002E5F9F /* Assets.xcassets */,
 				839ED7B21F7513A1002E5F9F /* LaunchScreen.storyboard */,
@@ -123,6 +133,16 @@
 				839ED7CB1F7513A2002E5F9F /* Info.plist */,
 			);
 			path = TableviewCellExpandUITests;
+			sourceTree = "<group>";
+		};
+		839ED7D71F7513E0002E5F9F /* HeaderViewFiels */ = {
+			isa = PBXGroup;
+			children = (
+				839ED7D81F7518E8002E5F9F /* HeaderView.swift */,
+				839ED7E21F752EE0002E5F9F /* Section.swift */,
+				839ED7E01F751DFE002E5F9F /* HeaderView.xib */,
+			);
+			path = HeaderViewFiels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +255,7 @@
 				839ED7B41F7513A1002E5F9F /* LaunchScreen.storyboard in Resources */,
 				839ED7B11F7513A1002E5F9F /* Assets.xcassets in Resources */,
 				839ED7AF1F7513A1002E5F9F /* Main.storyboard in Resources */,
+				839ED7E11F751DFE002E5F9F /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839ED7E31F752EE0002E5F9F /* Section.swift in Sources */,
 				839ED7AC1F7513A1002E5F9F /* ViewController.swift in Sources */,
+				839ED7D91F7518E8002E5F9F /* HeaderView.swift in Sources */,
+				839ED7DF1F751A3E002E5F9F /* CustomTableViewCell.swift in Sources */,
 				839ED7AA1F7513A1002E5F9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
