@@ -90,6 +90,51 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
 }
 
+// class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+
+//     let section = ["pizza", "deep dish pizza", "calzone"]
+    
+//     let items = [["Margarita", "BBQ Chicken", "Peproni","Margarita", "BBQ Chicken", "Peproni","Margarita", "BBQ Chicken", "Peproni"], ["sausage", "meat lovers", "veggie lovers"], ["sausage", "chicken pesto", "prawns & mashrooms","Margarita", "BBQ Chicken", "Peproni","Margarita", "BBQ Chicken", "Peproni"]]
+
+//     @IBOutlet weak var homeTableview: UITableView!
+//     override func viewDidLoad() {
+//         super.viewDidLoad()
+//         homeTableview.delegate = self
+//         homeTableview.dataSource = self
+//         homeTableview.separatorStyle = .none
+//          //homeTableview.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
+//         // Do any additional setup after loading the view, typically from a nib.
+//     }
+
+//     override func didReceiveMemoryWarning() {
+//         super.didReceiveMemoryWarning()
+//         // Dispose of any resources that can be recreated.
+//     }
+//      func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//         return self.section[section]
+//     }
+//      func numberOfSections(in tableView: UITableView) -> Int {
+//         return section.count
+//     }
+//      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//         return items[section].count
+//     }
+//     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//         return 40
+//     }
+//     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell") as! HomeTableViewCell
+//         cell.nameLabel.text = self.items[indexPath.section][indexPath.row]
+//         return cell
+//     }
+    
+    
+    
+    
+    
+
+// }
+
 
 
 
